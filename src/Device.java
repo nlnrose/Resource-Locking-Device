@@ -3,7 +3,7 @@ import java.util.Random;
 
 
 public class Device {
-
+    
     private static int DEFAULT_PEEKS = 2;
     private static int DEFAULT_SIZE = 4;
     private static char VALUE_FALSE = 'F';
@@ -13,7 +13,7 @@ public class Device {
 
     public Device() {
 
-        do {
+        do {src
             lock = randomBools(DEFAULT_SIZE);
         } while (!lockCheck(lock));
 
@@ -55,8 +55,8 @@ public class Device {
         for(i = 0; i < rando; i++) {
             rotate();
         }
-
-        return lockCheck(lock);
+	//Make sure it is not locked, then return it
+        return !lockCheck(lock);
     }
 
     public void poke(CharSequence pattern) {
