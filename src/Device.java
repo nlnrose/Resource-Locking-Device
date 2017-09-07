@@ -12,8 +12,7 @@ public class Device {
     static boolean[] lock;
 
     public Device() {
-
-        // test
+        
         do {
             lock = randomBools(DEFAULT_SIZE);
         } while (!lockCheck(lock));
