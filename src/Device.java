@@ -51,7 +51,7 @@ public class Device {
 
     public boolean spin() {
         int rando = 1 + (int)(Math.random() * DEFAULT_SIZE), i;
-        System.err.println("number of spins = " + rando);
+        //System.err.println("number of spins = " + rando);
         for(i = 0; i < rando; i++) {
             rotate();
         }
