@@ -13,6 +13,7 @@ public class Device {
 
     public Device() {
 
+        // test
         do {
             lock = randomBools(DEFAULT_SIZE);
         } while (!lockCheck(lock));
