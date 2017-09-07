@@ -168,7 +168,8 @@ public class Device {
     } // end poke
 
     /**
-     * String representation of device object
+     * String representation of device object.  Calling toString() on a device
+     * object will reveal all bits of the device.
      * @return device object as a string
      */
     @Override
