@@ -24,5 +24,12 @@ TEAM 1C - Hunter H. Jesse B. Levi P. Nolan B. Shohan M.
     
     -Next meeting will cover the Design / Architecture phase of the project.
     
+9/12 - Topic: First implmenetation and testing
+
+    The team briefly reviewed Hunter's initial implementation of FourBitTwoDisclosureDeviceUnlocker.java. We discussed how to best
+    collaborate on the remaining work.
     
-   
+    Outcome:
+    -The team will further review the initial implementation FourBitTwoDisclosureDeviceUnlocker.java.
+    -Nolan will create tests to automatically check our implementation with the provided Device class.
+    -We agreed that additional code contributions will be reviewed by the team, via GitHub issues and/or pull requests.
