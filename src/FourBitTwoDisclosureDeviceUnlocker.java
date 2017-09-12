@@ -1,7 +1,7 @@
 /**
  * Unlocks a circular bit device that is 4 bits with 2 bit disclosure.
  * @author Hunter Hobbs
- * @version 1.0.0
+ * @version 1.0.1
  */
 public class FourBitTwoDisclosureDeviceUnlocker extends DeviceUnlocker {
 
